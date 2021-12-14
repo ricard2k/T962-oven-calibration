@@ -1,4 +1,9 @@
 {
     "python.pythonPath": "venv/bin/python",
-    "git.ignoreLimitWarning": true
-}
+    "git.ignoreLimitWarning": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/venv/*/**": true
+      }
+    
